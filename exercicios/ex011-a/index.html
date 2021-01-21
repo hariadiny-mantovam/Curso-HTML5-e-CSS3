@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+        body{
+            font: normal 15pt 'Roboto';
+            color: #fff;
+            text-shadow: 2px 2px 10px rgba(83, 75, 75, 0.349);
+            text-align: center;
+            background: #c5e0e0;
+        }
+
+        #imagens {
+            margin: auto;
+        }
+
+        img{
+            border-radius: 5px;
+            border: 2px solid #fff;
+        }
+    </style>
+    <title>Mídias HTML5</title>
+</head>
+<body>
+    <section id="imagens">
+        <h1>Imagem dinâmica</h1>
+        <picture>
+            <source media="(max-width: 750px )" srcset="image/fotoP.png" type="image/png">
+            <source media="(max-width: 1050px )" srcset="image/fotoM.png" type="image/png">
+            <img src="image/fotoG.png" alt="Imagens dinâmicas">
+        </picture>
+        <h1>Reproduzindo áudio</h1>
+        <!--MP3, WAV, OGG-->
+        <!--Outra maneira de adicionar audio na página:-->
+        <audio preload="metadata" controls>
+            <source src="audio/muriel-bobbyrichards.mp3" type="audio/mpeg">
+        <!--Assim como nas imagens, é interessante testar vários meios de reproduzir o áudio, caso o navegador não seja compativel-->
+        </audio>
+    
+    </section>
+    
+    
+</body>
+</html>
