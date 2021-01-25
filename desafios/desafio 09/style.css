@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+body{
+    font: normal 20pt 'Merriwather' ;
+    color: rgba(255, 255, 255, 0.979);
+    text-align: center;
+    justify-content: center;
+    background: #0e0f0f;
+}
+
+.area-image{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+div{
+    margin: 10px;
+}
+
+.area-link{
+    padding: 5px;
+    margin: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #145088;
+}
+
+a:hover{
+    color: #fff;
+}
